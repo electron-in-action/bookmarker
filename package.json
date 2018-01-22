@@ -1,0 +1,17 @@
+{
+  "name": "bookmarker",
+  "version": "1.0.0",
+  "description": "An example Electron application",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:electron-in-action/bookmarker.git",
+  "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "electron": "^1.7.10"
+  }
+}

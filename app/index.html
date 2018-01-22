@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Bookmarker</title>
+  </head>
+  <body>
+
+    <h1>Bookmarker</h1>
+
+    <div class="error-message"></div>
+
+    <section class="add-new-link">
+      <form class="new-link-form">
+        <input type="url" class="new-link-url" placeholder="URL" required>
+        <input type="submit" class="new-link-submit" value="Submit" disabled>
+      </form>
+    </section>
+
+    <section class="links"></section>
+
+    <section class="controls">
+      <button class="clear-storage">Clear Storage</button>
+    </section>
+
+    <script>
+      require('./renderer');
+    </script>
+
+  </body>
+
+</html>
